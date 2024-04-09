@@ -1,6 +1,6 @@
-[AcWing 791. 高精度加法](https://www.acwing.com/problem/content/description/793/)
+# [AcWing 791. 高精度加法](https://www.acwing.com/problem/content/description/793/)
 
-#### 题目描述
+## 题目描述
 
 给定两个正整数（不含前导 0），计算它们的和。
 
@@ -29,7 +29,7 @@
 35
 ```
 
-#### C++
+## C++
 
 ```cpp
 #include <iostream>
@@ -188,7 +188,7 @@ int main()
 }
 ```
 
-#### Go
+## Go
 
 ```go
 package main
@@ -244,7 +244,7 @@ func main() {
 }
 ```
 
-#### 模板
+## 模板
 
 ```cpp
 // C = A + B, A >= 0, B >= 0
@@ -266,4 +266,3 @@ vector<int> add(vector<int> &A, vector<int> &B)
     return C;
 }
 ```
-

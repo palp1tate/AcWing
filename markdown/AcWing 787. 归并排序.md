@@ -1,6 +1,6 @@
-[AcWing 787. 归并排序](https://www.acwing.com/problem/content/789/)
+# [AcWing 787. 归并排序](https://www.acwing.com/problem/content/789/)
 
-#### 题目描述
+## 题目描述
 
 给定你一个长度为 n 的整数数列。
 
@@ -35,7 +35,7 @@
 1 2 3 4 5
 ```
 
-#### C++
+## C++
 
 ```cpp
 #include <iostream>
@@ -71,7 +71,7 @@ int main() {
 }
 ```
 
-#### Go
+## Go
 
 ```go
 package main
@@ -131,7 +131,7 @@ func main() {
 }
 ```
 
-#### 模板
+## 模板
 
 ```cpp
 void merge_sort(int q[], int l, int r)
@@ -153,4 +153,3 @@ void merge_sort(int q[], int l, int r)
     for (i = l, j = 0; i <= r; i ++, j ++ ) q[i] = tmp[j];
 }
 ```
-

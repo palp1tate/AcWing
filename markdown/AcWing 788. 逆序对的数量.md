@@ -1,10 +1,10 @@
-[AcWing 788. 逆序对的数量](https://www.acwing.com/problem/content/description/790/)
+# [AcWing 788. 逆序对的数量](https://www.acwing.com/problem/content/description/790/)
 
-#### 题目描述
+## 题目描述
 
 给定一个长度为 n 的整数数列，请你计算数列中的逆序对的数量。
 
-逆序对的定义如下：对于数列的第 i 个和第 j 个元素，如果满足 i<j且 a[i]>a[j]，则其为一个逆序对；否则不是。
+逆序对的定义如下：对于数列的第 i 个和第 j 个元素，如果满足 i<j 且 a[i]>a[j]，则其为一个逆序对；否则不是。
 
 **输入格式**
 
@@ -35,13 +35,13 @@
 5
 ```
 
-#### 思路
+## 思路
 
 用`int`会爆内存!
 
 ![image-20240405103232169](https://cdn.jsdelivr.net/gh/palp1tate/ImgPicGo/img/image-20240405103232169.png)
 
-#### C++
+## C++
 
 ```cpp
 #include <iostream>
@@ -79,7 +79,7 @@ int main() {
 }
 ```
 
-#### Go
+## Go
 
 ```go
 package main
@@ -137,7 +137,7 @@ func main() {
 }
 ```
 
-#### 模板
+## 模板
 
 ```cpp
 void merge_sort(int q[], int l, int r)

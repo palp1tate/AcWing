@@ -1,8 +1,8 @@
-[AcWing 786. 第k个数](https://www.acwing.com/problem/content/788/)
+# [AcWing 786. 第 k 个数](https://www.acwing.com/problem/content/788/)
 
-#### 题目描述
+## 题目描述
 
-给定一个长度为 n的整数数列，以及一个整数 k，请用快速选择算法求出数列从小到大排序后的第 k 个数。
+给定一个长度为 n 的整数数列，以及一个整数 k，请用快速选择算法求出数列从小到大排序后的第 k 个数。
 
 **输入格式**
 
@@ -33,11 +33,11 @@
 3
 ```
 
-#### 思路
+## 思路
 
 ![image-20240403110228271](https://cdn.jsdelivr.net/gh/palp1tate/ImgPicGo/img/image-20240403110228271.png)
 
-#### C++
+## C++
 
 ```cpp
 #include <iostream>
@@ -69,7 +69,7 @@ int main() {
 }
 ```
 
-#### Go
+## Go
 
 ```go
 package main
@@ -120,7 +120,7 @@ func main() {
 }
 ```
 
-#### 模板
+## 模板
 
 ```cpp
 void quick_sort(int q[], int l, int r)
