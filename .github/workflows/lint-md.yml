@@ -9,7 +9,7 @@ on:
       - master
 
 jobs:
-  markdownlint:
+  lint-md:
     runs-on: ubuntu-latest
     steps:
       - name: Check out code
@@ -23,5 +23,5 @@ jobs:
       - name: Install lint-md/cli
         run: npm install -g @lint-md/cli
       
-      - name: Run markdownlint
+      - name: Run lint-md
         run: lint-md '**/*.md' --threads
