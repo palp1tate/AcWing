@@ -169,14 +169,14 @@ func sub(a, b string) string {
 	b = reverse(b)
 	carry := 0
 	var result strings.Builder
-	for i := 0; i < len(a) || carry != 0; i++ {
+	for i := 0; i < len(a); i++ {
 		if i < len(a) {
 			carry += int(a[i] - '0')
 		}
 		if i < len(b) {
 			carry -= int(b[i] - '0')
 		}
-		result.WriteByte(uint8(carry+10)%10 + '0')
+        result.WriteByte(uint8((carry+10)%10) + '0')
 		if carry >= 0 {
 			carry = 0
 		} else {
