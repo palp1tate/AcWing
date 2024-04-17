@@ -61,10 +61,12 @@
 
 using namespace std;
 
+const int N = 1010;
+int s[N][N];
+
 int main() {
     int n, m, q;
     scanf("%d%d%d", &n, &m, &q);
-    int s[n + 1][m + 1];
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= m; j++) {
             int tmp;
