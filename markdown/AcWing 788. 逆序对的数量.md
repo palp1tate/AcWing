@@ -52,7 +52,7 @@ const int N = 1e5 + 10;
 
 int tmp[N];
 
-typedef long int L;
+typedef long long L;
 
 L merge_sort(int q[], int l, int r) {
     if (l >= r) return 0;
