@@ -54,11 +54,10 @@
 using namespace std;
 
 const int N = 1e5 + 10;
+int s[N];
 
 int main() {
     int n, m, tmp;
-    int s[N];
-    s[0] = 0;
     scanf("%d%d", &n, &m);
     for (int i = 0; i < n; i++) {
         scanf("%d", &tmp);
