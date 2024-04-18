@@ -1,2 +1,0 @@
-# AcWing
-C++&amp;Go
