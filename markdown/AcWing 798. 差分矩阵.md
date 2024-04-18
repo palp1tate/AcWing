@@ -125,7 +125,6 @@ using namespace std;
 const int N = 1010;
 
 int n, m, q;
-
 int a[N][N], b[N][N];
 
 void insert(int x1, int y1, int x2, int y2, int c) {
