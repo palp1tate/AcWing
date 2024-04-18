@@ -1,4 +1,5 @@
 import os
+import re
 
 # GitHub 用户名和仓库名
 github_user = 'palp1tate'
@@ -7,10 +8,21 @@ answer_url = f"https://github.com/{github_user}/{github_repo}/blob/master/markdo
 
 # 获取markdown目录下的所有Markdown文件
 markdown_dir = 'markdown'
-files = [f for f in os.listdir(markdown_dir) if os.path.isfile(os.path.join(markdown_dir, f)) and f.endswith('.md')]
+
+
+# 使用正则表达式匹配文件名中的数字
+def extract_number(filename):
+    match = re.search(r'\d+', filename)
+    return int(match.group()) if match else 0
+
+
+files = sorted(
+    [f for f in os.listdir(markdown_dir) if os.path.isfile(os.path.join(markdown_dir, f)) and f.endswith('.md')],
+    key=extract_number
+)
 
 # 生成Markdown表格，其中列内容和整个表都居中
-table_rows = ["| 原题 | 题解 |","| --- | --- |"]
+table_rows = ["| 原题 | 题解 |", "| --- | --- |"]
 for file in files:
     file_path = os.path.join(answer_url, file)
     # 读取文件的第一行来获取题目链接
