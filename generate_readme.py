@@ -10,19 +10,19 @@ markdown_dir = 'markdown'
 files = [f for f in os.listdir(markdown_dir) if os.path.isfile(os.path.join(markdown_dir, f)) and f.endswith('.md')]
 
 # 生成Markdown表格，其中列内容和整个表都居中
-table_rows = ["| 原题 | 题解 |","| :---: | :---: |"]
+table_rows = ["| 原题 | 题解 |","| --- | --- |"]
 for file in files:
     file_path = os.path.join(answer_url, file)
     # 读取文件的第一行来获取题目链接
     with open(os.path.join(markdown_dir, file), 'r', encoding='utf-8') as md_file:
         first_line = md_file.readline().strip().replace('# ', '')
-    table_rows.append(f"| {first_line} | [{file}]({file_path}) |")
+    table_rows.append(f"| {first_line} | [{file}](<{file_path}>) |")
 
 # 组装最终的README内容，并使标题和表格居中
 readme_content = """
 <div align="center">
 
-# 题解目录
+# AcWing题解目录
 
 """ + "\n".join(table_rows) + "\n</div>"
 
