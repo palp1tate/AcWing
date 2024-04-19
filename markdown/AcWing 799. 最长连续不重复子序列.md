@@ -120,8 +120,7 @@ func main() {
 	for i := 0; i < n; i++ {
 		fmt.Fscan(reader, &arr[i])
 	}
-	l := 0
-	for r := 0; r < n; r++ {
+	for l, r := 0, 0; r < n; r++ {
 		count[arr[r]]++
 		for l < r && count[arr[r]] > 1 {
 			count[arr[l]]--
