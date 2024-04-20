@@ -20,4 +20,5 @@
 | [AcWing 797. 差分](https://www.acwing.com/problem/content/799/) | [AcWing 797. 差分.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 797. 差分.md>) |
 | [AcWing 798. 差分矩阵](https://www.acwing.com/problem/content/800/) | [AcWing 798. 差分矩阵.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 798. 差分矩阵.md>) |
 | [AcWing 799. 最长连续不重复子序列](https://www.acwing.com/problem/content/801/) | [AcWing 799. 最长连续不重复子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 799. 最长连续不重复子序列.md>) |
+| [AcWing 800. 数组元素的目标和](https://www.acwing.com/problem/content/802/) | [AcWing 800. 数组元素的目标和.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 800. 数组元素的目标和.md>) |
 </div>
