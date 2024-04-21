@@ -22,7 +22,7 @@ files = sorted(
 )
 
 # 生成Markdown表格，其中列内容和整个表都居中
-table_rows = ["| 原题 | 题解 |", "| --- | --- |"]
+table_rows = ["| 原题 | 题解 |", "| :---: | :---: |"]
 for file in files:
     file_path = os.path.join(answer_url, file)
     # 读取文件的第一行来获取题目链接

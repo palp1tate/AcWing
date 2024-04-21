@@ -52,6 +52,7 @@ using namespace std;
 const int N = 100010;
 
 int n, m;
+
 int a[N], b[N];
 
 int main() {
