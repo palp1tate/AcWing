@@ -23,5 +23,6 @@
 | [AcWing 800. 数组元素的目标和](https://www.acwing.com/problem/content/802/) | [AcWing 800. 数组元素的目标和.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 800. 数组元素的目标和.md>) |
 | [AcWing 801. 二进制中 1 的个数](https://www.acwing.com/problem/content/803/) | [AcWing 801. 二进制中1的个数.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 801. 二进制中1的个数.md>) |
 | [AcWing 802. 区间和](https://www.acwing.com/problem/content/804/) | [AcWing 802. 区间和.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 802. 区间和.md>) |
+| [AcWing 803. 区间合并](https://www.acwing.com/problem/content/805/) | [AcWing 803. 区间合并.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 803. 区间合并.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 </div>
