@@ -240,7 +240,7 @@ int main() {
 }
 ```
 
-```c++
+```cpp
 #include <iostream>
 
 using namespace std;
