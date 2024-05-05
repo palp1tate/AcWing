@@ -58,6 +58,62 @@ D 6
 
 ```cpp
 #include <iostream>
+
+using namespace std;
+
+const int N = 1e5 + 10;
+
+int head, current, value[N], next_index[N];
+
+void init() {
+    head = -1;
+    current = 0;
+}
+
+void insert_at_head(int x) {
+    value[current] = x;
+    next_index[current] = head;
+    head = current++;
+}
+
+void insert(int k, int x) {
+    value[current] = x;
+    next_index[current] = next_index[k - 1];
+    next_index[k - 1] = current++;
+}
+
+void remove(int k) {
+    next_index[k - 1] = next_index[next_index[k - 1]];
+}
+
+int main() {
+    init();
+    int m;
+    scanf("%d", &m);
+    while (m--) {
+        char command;
+        int k, x;
+        scanf(" %c", &command);
+        if (command == 'H') {
+            scanf("%d", &x);
+            insert_at_head(x);
+        } else if (command == 'D') {
+            scanf("%d", &k);
+            if (!k) head = next_index[head];
+            else remove(k);
+        } else {
+            scanf("%d%d", &k, &x);
+            insert(k, x);
+        }
+
+    }
+    for (int i = head; i != -1; i = next_index[i]) printf("%d ", value[i]);
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
 #include <vector>
 
 using namespace std;
@@ -307,6 +363,85 @@ int main() {
 ```
 
 ## Go
+
+```go
+package main
+
+import (
+	"bufio"
+	"os"
+	"strconv"
+	"strings"
+)
+
+const N = 100010
+
+var (
+	head, current    int
+	value, nextIndex [N]int
+)
+
+func initLinkedList() {
+	head = -1
+	current = 0
+}
+
+func insertAtHead(x int) {
+	value[current] = x
+	nextIndex[current] = head
+	head = current
+	current++
+}
+
+func insert(k, x int) {
+	value[current] = x
+	nextIndex[current] = nextIndex[k-1]
+	nextIndex[k-1] = current
+	current++
+}
+
+func remove(k int) {
+	nextIndex[k-1] = nextIndex[nextIndex[k-1]]
+}
+
+func main() {
+	initLinkedList()
+
+	reader := bufio.NewReader(os.Stdin)
+	input, _ := reader.ReadString('\n')
+	m, _ := strconv.Atoi(strings.TrimSpace(input))
+
+	for i := 0; i < m; i++ {
+		input, _ = reader.ReadString('\n')
+		parts := strings.Fields(input)
+		command := parts[0]
+
+		switch command {
+		case "H":
+			x, _ := strconv.Atoi(parts[1])
+			insertAtHead(x)
+
+		case "D":
+			k, _ := strconv.Atoi(parts[1])
+			if k == 0 {
+				head = nextIndex[head]
+			} else {
+				remove(k)
+			}
+
+		case "I":
+			k, _ := strconv.Atoi(parts[1])
+			x, _ := strconv.Atoi(parts[2])
+			insert(k, x)
+		}
+	}
+	writer := bufio.NewWriter(os.Stdout)
+	defer writer.Flush()
+	for i := head; i != -1; i = nextIndex[i] {
+		writer.WriteString(strconv.Itoa(value[i]) + " ")
+	}
+}
+```
 
 ```go
 package main
