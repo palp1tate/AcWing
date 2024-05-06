@@ -25,6 +25,6 @@
 | [AcWing 802. 区间和](https://www.acwing.com/problem/content/804/) | [AcWing 802. 区间和.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 802. 区间和.md>) |
 | [AcWing 803. 区间合并](https://www.acwing.com/problem/content/805/) | [AcWing 803. 区间合并.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 803. 区间合并.md>) |
 | [AcWing 826. 单链表](https://www.acwing.com/problem/content/828/) | [AcWing 826. 单链表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 826. 单链表.md>) |
-| AcWing 827. 双链表 | [AcWing 827. 双链表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 827. 双链表.md>) |
+| [AcWing 827. 双链表](https://www.acwing.com/problem/content/829/) | [AcWing 827. 双链表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 827. 双链表.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 </div>
