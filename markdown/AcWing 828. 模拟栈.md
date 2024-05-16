@@ -1,5 +1,7 @@
 # [AcWing 828. 模拟栈](https://www.acwing.com/problem/content/830/) 
 
+## 题目描述
+
 实现一个栈，栈初始为空，支持四种操作：
 
 1. `push x` – 向栈顶插入一个数 𝑥；
