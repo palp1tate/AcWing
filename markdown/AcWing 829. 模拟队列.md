@@ -1,5 +1,7 @@
 # [AcWing 829. 模拟队列](https://www.acwing.com/problem/content/831/)
 
+## 题目描述
+
 实现一个队列，队列初始为空，支持四种操作：
 
 1. `push x` – 向队尾插入一个数 𝑥；
