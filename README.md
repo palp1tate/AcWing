@@ -28,6 +28,7 @@
 | [AcWing 827. 双链表](https://www.acwing.com/problem/content/829/) | [AcWing 827. 双链表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 827. 双链表.md>) |
 | [AcWing 828. 模拟栈](https://www.acwing.com/problem/content/830/) | [AcWing 828. 模拟栈.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 828. 模拟栈.md>) |
 | [AcWing 829. 模拟队列](https://www.acwing.com/problem/content/831/) | [AcWing 829. 模拟队列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 829. 模拟队列.md>) |
+| [AcWing 830. 单调栈](https://www.acwing.com/problem/content/832/) | [AcWing 830. 单调栈.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 830. 单调栈.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 | [AcWing 3302. 表达式求值](https://www.acwing.com/problem/content/3305/) | [AcWing 3302. 表达式求值.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 3302. 表达式求值.md>) |
 </div>
