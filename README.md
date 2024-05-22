@@ -5,6 +5,7 @@
 
 | 原题 | 题解 |
 | :---: | :---: |
+| [AcWing 154. 滑动窗口](https://www.acwing.com/problem/content/156/) | [AcWing 154. 滑动窗口.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 154. 滑动窗口.md>) |
 | [AcWing 785. 快速排序](https://www.acwing.com/problem/content/787/) | [AcWing 785. 快速排序.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 785. 快速排序.md>) |
 | [AcWing 786. 第 k 个数](https://www.acwing.com/problem/content/788/) | [AcWing 786. 第k个数.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 786. 第k个数.md>) |
 | [AcWing 787. 归并排序](https://www.acwing.com/problem/content/789/) | [AcWing 787. 归并排序.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 787. 归并排序.md>) |
