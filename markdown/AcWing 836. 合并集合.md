@@ -63,6 +63,47 @@ int find(int x) {
 }
 
 int main() {
+    int n, m;
+    scanf("%d%d", &n, &m);
+
+    // 初始化不相交集合，每个元素初始时父节点为自身
+    for (int i = 1; i <= n; i++) fa[i] = i;
+
+    while (m--) {
+        char op[2];
+        int a, b;
+        scanf("%s%d%d", op, &a, &b);
+
+        // 如果操作是合并 ('M')，将包含元素 'a' 和 'b' 的集合合并
+        if (op[0] == 'M') fa[find(a)] = find(b);
+        else {
+            // 如果操作是查询 ('Q')，检查元素 'a' 和 'b' 是否属于同一个集合
+            if (find(a) == find(b)) puts("Yes");
+            else puts("No");
+        }
+    }
+
+    return 0;
+}
+```
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+const int N = 100010;
+
+int fa[N]; // 存储每个元素的父节点，用于表示不相交集合中的集合
+
+// 查找元素 x 所在集合的根节点（即代表元素）
+int find(int x) {
+    // 如果当前元素的父节点不是自身，则递归查找根节点，并进行路径压缩
+    if (fa[x] != x) fa[x] = find(fa[x]);
+    return fa[x];
+}
+
+int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
@@ -81,8 +122,8 @@ int main() {
         if (op == 'M') fa[find(a)] = find(b);
         else {
             // 如果操作是查询 ('Q')，检查元素 'a' 和 'b' 是否属于同一个集合
-            if (find(a) == find(b)) puts("Yes");
-            else puts("No");
+            if (find(a) == find(b)) cout << "Yes" << endl;
+            else cout << "No" << endl;;
         }
     }
 
