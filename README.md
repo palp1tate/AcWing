@@ -34,6 +34,7 @@
 | [AcWing 831. KMP 字符串](https://www.acwing.com/problem/content/833/) | [AcWing 831. KMP字符串.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 831. KMP字符串.md>) |
 | [AcWing 835. Trie 字符串统计](https://www.acwing.com/problem/content/837/) | [AcWing 835. Trie字符串统计.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 835. Trie字符串统计.md>) |
 | [AcWing 836. 合并集合](https://www.acwing.com/problem/content/838/) | [AcWing 836. 合并集合.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 836. 合并集合.md>) |
+| [AcWing 837. 连通块中点的数量](https://www.acwing.com/problem/content/839/) | [AcWing 837. 连通块中点的数量.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 837. 连通块中点的数量.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 | [AcWing 3302. 表达式求值](https://www.acwing.com/problem/content/3305/) | [AcWing 3302. 表达式求值.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 3302. 表达式求值.md>) |
 </div>
