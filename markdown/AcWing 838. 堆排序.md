@@ -43,7 +43,8 @@ using namespace std;
 const int N = 100010;
 
 int n, m;
-int h[N], cnt;
+long long h[N];
+int cnt;
 
 void down(int u) {
     int t = u;
@@ -83,7 +84,8 @@ using namespace std;
 const int N = 100010;
 
 int n, m;
-int h[N], cnt;
+long long h[N];
+int cnt;
 
 void down(int u) {
     int t = u;
@@ -97,13 +99,13 @@ void down(int u) {
 
 int main() {
     scanf("%d%d", &n, &m);
-    for (int i = 1; i <= n; i++) scanf("%d", &h[i]);
+    for (int i = 1; i <= n; i++) scanf("%lld", &h[i]);
     cnt = n;
 
     for (int i = n / 2; i; i--) down(i);
 
     while (m--) {
-        printf("%d ", h[1]);
+        printf("%lld ", h[1]);
         h[1] = h[cnt--];
         down(1);
     }
@@ -129,7 +131,7 @@ const N = 100010
 
 var (
 	n, m, cnt int
-	h         [N]int
+	h         [N]int64
 )
 
 func down(u int) {
