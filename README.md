@@ -38,6 +38,7 @@
 | [AcWing 837. 连通块中点的数量](https://www.acwing.com/problem/content/839/) | [AcWing 837. 连通块中点的数量.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 837. 连通块中点的数量.md>) |
 | [AcWing 838. 堆排序](https://www.acwing.com/problem/content/840/) | [AcWing 838. 堆排序.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 838. 堆排序.md>) |
 | [AcWing 839. 模拟堆](https://www.acwing.com/problem/content/841/) | [AcWing 839. 模拟堆.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 839. 模拟堆.md>) |
+| [AcWing 840. 模拟散列表](https://www.acwing.com/problem/content/842/) | [AcWing 840. 模拟散列表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 840. 模拟散列表.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 | [AcWing 3302. 表达式求值](https://www.acwing.com/problem/content/3305/) | [AcWing 3302. 表达式求值.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 3302. 表达式求值.md>) |
 </div>
