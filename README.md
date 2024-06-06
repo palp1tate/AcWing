@@ -41,6 +41,7 @@
 | [AcWing 840. 模拟散列表](https://www.acwing.com/problem/content/842/) | [AcWing 840. 模拟散列表.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 840. 模拟散列表.md>) |
 | [AcWing 841. 字符串哈希](https://www.acwing.com/problem/content/843/) | [AcWing 841. 字符串哈希.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 841. 字符串哈希.md>) |
 | [AcWing 842. 排列数字](https://www.acwing.com/problem/content/844/) | [AcWing 842. 排列数字.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 842. 排列数字.md>) |
+| [AcWing 843. n-皇后问题](https://www.acwing.com/problem/content/845/) | [AcWing 843. n-皇后问题.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 843. n-皇后问题.md>) |
 | [AcWing 2816. 判断子序列](https://www.acwing.com/problem/content/2818/) | [AcWing 2816. 判断子序列.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 2816. 判断子序列.md>) |
 | [AcWing 3302. 表达式求值](https://www.acwing.com/problem/content/3305/) | [AcWing 3302. 表达式求值.md](<https://github.com/palp1tate/AcWing/blob/master/markdown/AcWing 3302. 表达式求值.md>) |
 </div>
