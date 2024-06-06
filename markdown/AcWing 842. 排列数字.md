@@ -51,6 +51,8 @@ void dfs(int u) {
     {
         for (int i = 0; i < n; i++) printf("%d ", path[i]); // 输出保存的结果
         puts(" ");
+        
+        return;
     }
 
     for (int i = 1; i <= n; i++)
